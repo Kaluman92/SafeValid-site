@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · SafeValid</title>
+<meta name="description" content="How the SafeValid iOS app by Silcore Engineering handles your information.">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f6f7; --text: #15181b; --muted: #5a636b;
+    --accent: #9a6b00; --rule: #e1e5e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d0d0f; --surface: #17191c; --text: #eceef0; --muted: #9aa3ab; --accent: #ffcc00; --rule: #262a2f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 20px; margin-bottom: 28px; }
+  .brand { font: 700 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .18em; color: var(--accent); text-transform: uppercase; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 10px 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  .summary { background: var(--surface); border-radius: 10px; padding: 16px 20px; margin: 20px 0; }
+  .summary ul { margin: 6px 0 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--rule); }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); }
+  @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; }
+    td { border: none; padding: 2px 0; } tr { border-bottom: 1px solid var(--rule); padding: 10px 0; } td:first-child { font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">SafeValid</div>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective 18 October 2026 · Silcore Engineering, Australia</p>
+</header>
+
+<p>This policy explains what information the SafeValid iOS app (“the app”) uses, why, and your choices. The app is made by Silcore Engineering (“we”, “us”). We handle personal information in line with the Privacy Act 1988 (Cth) and the Australian Privacy Principles.</p>
+
+<div class="summary">
+  <strong>In short</strong>
+  <ul>
+    <li>You don't need an account to use the app.</li>
+    <li>We run no servers. Your machines, safety functions, test results, photos and reports are stored on your device.</li>
+    <li>Nothing is sent to us. The only data that leaves your device is what you choose to share, and drawings or plans you send to the optional AI assistant with your own API key.</li>
+    <li>No advertising, no tracking, no third-party analytics, and we never sell your information.</li>
+  </ul>
+</div>
+
+<h2>1. Information stored on your device</h2>
+<table>
+  <thead><tr><th>Information</th><th>What happens</th></tr></thead>
+  <tbody>
+    <tr><td>Validation records</td><td>Machines, safety functions, devices, test results, measurements, notes, compliance items and sign-off details (such as validator and reviewer names, roles and company) are stored in the app on your device.</td></tr>
+    <tr><td>Camera &amp; photos</td><td>Used to photograph installed safety devices and drawings as validation evidence, and to import drawings. Images are stored on your device and are not uploaded, except drawings you choose to send to the AI assistant (section 3).</td></tr>
+    <tr><td>Schematics &amp; plans</td><td>Drawings (PDF or images) and validation plans you import are read on your device. Text recognition (OCR) runs on your device using Apple's Vision framework.</td></tr>
+    <tr><td>Settings</td><td>Your preferences, including the validator name, role and company used on reports, are kept on your device.</td></tr>
+  </tbody>
+</table>
+
+<h2>2. Sharing and exports</h2>
+<p>When you export a PDF report, a validation plan or a validation package (for example to a USB drive, Files, email or another app), the file goes wherever you send it. We never receive a copy. Reports can contain the names, roles and company details you entered.</p>
+
+<h2>3. Optional AI assistant</h2>
+<p>The AI assistant is off by default. If you turn it on, enter your own API key for Anthropic (Claude) and agree to the data-sharing notice, the app sends the following directly from your device to Anthropic when you ask it to analyse a document:</p>
+<ul>
+  <li>the electrical drawing or validation plan you selected (its pages, images or extracted text);</li>
+  <li>the safety functions you listed for the analysis, and text found in the drawing.</li>
+</ul>
+<p>The app does not send your machine details, photos, names or test results. Anthropic's own privacy policy and terms apply, and usage is billed to your account with them. Your API key is stored only in your device's Keychain and is never sent to us. If you set a custom endpoint in the AI settings, requests go to that address instead.</p>
+
+<h2>4. Purchases</h2>
+<p>SafeValid Pro is sold and billed by Apple through the App Store. We never see your payment details. The app receives only the purchase status from Apple.</p>
+
+<h2>5. Who else handles information</h2>
+<p>We don't sell, rent or trade personal information. It is handled by these services only as needed to run the features you use:</p>
+<ul>
+  <li><strong>Apple:</strong> App Store purchases and TestFlight, and iCloud backups of your device if you use them.</li>
+  <li><strong>Anthropic:</strong> only if you turn on the AI assistant with your own key.</li>
+  <li><strong>Google:</strong> our support inbox is hosted on Gmail, so emails you send us are stored there.</li>
+</ul>
+<p>Some of these services store data outside Australia, including in the United States. When we use them, we take reasonable steps to make sure your information is handled consistently with the Australian Privacy Principles.</p>
+
+<h2>6. How long we keep it</h2>
+<p>Information in the app stays on your device until you delete it or remove the app. We keep support emails for as long as we need them to help you, then delete them unless the law requires us to keep them longer.</p>
+
+<h2>7. Your choices and rights</h2>
+<ul>
+  <li>Use the app without an account.</li>
+  <li>Delete machines and their records at any time in the app. Deleting the app removes all its data from your device.</li>
+  <li>Turn off the AI assistant, withdraw data-sharing consent or remove your API key at any time in Settings → AI Assistant.</li>
+  <li>Control camera and photo access at any time in iPhone Settings → SafeValid.</li>
+  <li>Access, correct or delete anything you've emailed us by contacting us (see below). We'll reply within 30 days.</li>
+</ul>
+
+<h2>8. Security</h2>
+<p>API keys are stored in the iOS Keychain, and all network connections the app makes use encryption (HTTPS). Locked validation records are protected with checksums so changes can be detected. No method of storage or transmission is completely secure, but we take reasonable steps to protect your information.</p>
+
+<h2>9. Children</h2>
+<p>The app is a professional tool for engineers who validate machine safety systems. It isn't directed at children, and we don't knowingly collect information from anyone under 16.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change this policy, we'll update it on this page and change the effective date above. If the changes are significant, we'll also tell you in the app.</p>
+
+<h2>11. Contact and complaints</h2>
+<p>Questions, requests or complaints: <a href="mailto:Silcore.engineering@gmail.com">Silcore.engineering@gmail.com</a>. We'll respond within 30 days. If you're not satisfied with our response, you can complain to the Office of the Australian Information Commissioner (OAIC) at <a href="https://www.oaic.gov.au">oaic.gov.au</a> or on 1300 363 992.</p>
+
+<footer>
+  <p class="muted">© 2026 Silcore Engineering</p>
+</footer>
+</main>
+</body>
+</html>

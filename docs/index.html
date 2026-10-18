@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafeValid Support</title>
+<meta name="description" content="Help and contact details for the SafeValid iOS app by Silcore Engineering.">
+<style>
+  :root { --bg: #ffffff; --surface: #f4f6f7; --text: #15181b; --muted: #5a636b; --accent: #9a6b00; --rule: #e1e5e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d0d0f; --surface: #17191c; --text: #eceef0; --muted: #9aa3ab; --accent: #ffcc00; --rule: #262a2f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 20px; margin-bottom: 28px; }
+  .brand { font: 700 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .18em; color: var(--accent); text-transform: uppercase; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 10px 0 6px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .contact { background: var(--surface); border-radius: 10px; padding: 16px 20px; margin: 20px 0; }
+  details { border-bottom: 1px solid var(--rule); padding: 12px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 8px 0 0; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">Validate with confidence</div>
+  <h1>SafeValid</h1>
+  <p class="muted">Safety-function validation to ISO 13849-2 for machine-safety and controls engineers, by Silcore Engineering.</p>
+</header>
+
+<div class="contact">
+  <strong>Need help?</strong> Email <a href="mailto:Silcore.engineering@gmail.com">Silcore.engineering@gmail.com</a>. We'll get back to you as soon as we can.
+</div>
+
+<h2>Common questions</h2>
+
+<details>
+  <summary>Do I need an account?</summary>
+  <p>No. SafeValid works without signing in, and your validation records are stored on your device.</p>
+</details>
+<details>
+  <summary>How do I try the app with example data?</summary>
+  <p>On the machine list, tap <em>Load Sample Machine</em>. The sample doesn't count towards the free version's one-machine limit.</p>
+</details>
+<details>
+  <summary>What does SafeValid Pro include?</summary>
+  <p>Unlimited machines, PDF reports with a sign-off block and no TRIAL watermark, and complete category-based test plans, including fault-injection tests for Categories 3 and 4. Pro is a one-time purchase, not a subscription.</p>
+</details>
+<details>
+  <summary>How do I restore Pro on a new device?</summary>
+  <p>Open Settings → SafeValid Pro → Restore Purchases while signed in to the App Store with the same Apple ID you bought it with.</p>
+</details>
+<details>
+  <summary>How does the AI assistant work?</summary>
+  <p>It's optional and off by default. Turn it on in Settings → AI Assistant and enter your own Anthropic API key. Only the drawing or validation plan you choose to analyse is sent to Anthropic. Every safety function it proposes must be reviewed and approved by you.</p>
+</details>
+<details>
+  <summary>Can a locked validation be changed?</summary>
+  <p>Locked records are read-only and protected by a checksum shown on every report page. Unlocking requires a reason and creates a new revision with a new checksum.</p>
+</details>
+<details>
+  <summary>Does SafeValid replace a full PL calculation?</summary>
+  <p>No. The Performance Level shown is indicative, using the ISO 13849-1 simplified procedure. Always verify it with a complete calculation (for example SISTEMA). SafeValid supports, but does not replace, the judgement of competent persons.</p>
+</details>
+
+<footer>
+  <p class="muted">© 2026 Silcore Engineering · <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</main>
+</body>
+</html>
